@@ -6,7 +6,7 @@ plugins {
 
 import org.gradle.internal.os.OperatingSystem
 
-mainClassName = 'com.inferno.TetrisGameLauncher'
+mainClassName = 'com.inferno.TetrisGameLauncherKt'
 project.ext.lwjglVersion = "3.1.6"
 
 project.ext.set('nativeLibsDir', "$buildDir/libs/natives")
